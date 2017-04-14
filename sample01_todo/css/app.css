@@ -1,0 +1,60 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	font-family: 'Malgun Gothic';
+}
+
+.AppWrap
+{
+	margin: 8px;
+	border: 1px solid black;
+	padding: 8px;
+}
+
+.AppHead
+{
+	border-bottom: 1px solid black;
+}
+
+.AppContent
+{
+	height: 500px;
+	border-bottom: 1px solid black;
+	overflow-y: scroll;
+}
+
+.AppFoot
+{
+	margin-top: 8px;
+	text-align: right;
+}
+
+input[type="button"] /* tag selector 1st */
+{
+	display: inline-block;
+	/* inline 요소는 padding-r/l 값만 적용되는데 이렇게 하면 padding/margin 다 적용됨 */
+	padding: 4px;
+	margin: 4px;
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+}
+
+.Task
+{
+	padding: 8px;
+	border-bottom: 1px dashed black;
+}
+
+.BtnEdit
+{
+	background-color: skyblue !important;
+	border-color: blue !important;
+}
+
+.BtnDel
+{
+	background-color: salmon !important;
+	border-color: red !important;
+}

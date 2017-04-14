@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Jeju Gothic';
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: bisque;
+}
+
+.AppWrap > div {
+  display: none;
+}
+
+.AppWrap {
+  padding: 16px;
+}
+
+input[type=button], button {
+  display: inline-block;
+  padding: 4px;
+  margin: 4px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+input[type=text], input[type=password], textarea {
+  display: inline-block;
+  padding: 4px;
+  margin: 4px;
+  border: 1px solid black;
+  width: 90%;
+}
+
+.Navi {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 108px;
+  background-color: burlywood;
+  border-bottom: 2px solid black;
+  margin-bottom: 108px;
+}
+
+.NaviPadding {
+  padding: 8px;
+}
+
+.AppBtnRed {
+  border-color: 1px solid maroon !important;
+  background-color: maroon !important;
+}
+
+.AppBtnBlue {
+  border-color: 1px solid midnightblue !important;
+  background-color: midnightblue !important;
+}
+
+.AppBtnGreen {
+  border-color: 1px solid #044c1b !important;
+  background-color: #36b555 !important;
+}
+
+.AppBtnYellow {
+  border-color: 1px solid #414c00 !important;
+  background-color: #bfcb05 !important;
+}
+
+/*.HeightPadding {
+  height: 108px;
+}*/
+
+.Items, .HeightPadding {
+  padding-top: 108px;
+}
+
+.Item {
+  background-color: burlywood;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 8px;
+  /*margin-bottom: 8px;*/
+}
+
+.ItemText {
+  padding: 8px;
+}
+
+.ItemText > h4 {
+  margin-bottom: 4px;
+}
+
+.ItemText > h6 {
+  margin-bottom: 12px;
+}
+
+.ItemText > p {
+  font-size: 14px;
+}
+
+.ItemButton {
+  margin-top: 32px;
+  text-align: right;
+}
+
+.Comment {
+  border-color: #FFD771;
+  border-top: 1px solid #000;
+}
+
+.Comments {
+  border-top: 1px dotted #000;
+}
+
+.CommentItem {
+  border-bottom: 1px dotted #000;
+  padding: 8px;
+}
+
+.CommentItem > h4, .CommentItem > p {
+  font-size: 14px;
+}
